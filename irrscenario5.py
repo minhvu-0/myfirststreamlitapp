@@ -248,7 +248,7 @@ def run_dashboard():
         # Historical cash flows
         st.subheader("Historical Cash Flows")
         cash_flow_data = pd.DataFrame({
-            'Year': [2018, 2019, 2020, 2021, 2022, 2023, 2024],
+            'Year': [2017, 2019, 2020, 2021, 2022, 2023, 2024],
             'Amount': [-1800000, -2600000, -600000, 2100000, 300000, -640000, -500000]
         })
         
